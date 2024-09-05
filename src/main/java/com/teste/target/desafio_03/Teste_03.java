@@ -84,7 +84,7 @@ public class Teste_03 {
             // Imprimir resultados
             if (menorFaturamento != null && maiorFaturamento != null  && diasAcimaDaMedia != 0) {
                 System.out.println("Menor valor de faturamento: " + menorFaturamento + " no dia " + diaMenorValor);
-                System.out.println("Maior valor de faturamento: " + maiorFaturamento + " no dia " + diaMaiorValor);
+                System.out.printf("Maior valor de faturamento: R$ %.2f no dia %d", maiorFaturamento, diaMaiorValor);
                 System.out.println("Número de dias com faturamento acima da média: " + diasAcimaDaMedia);
                 System.out.printf("Media mensal: R$ %.2f", mediaMensal);
             }
